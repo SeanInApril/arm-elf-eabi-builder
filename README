@@ -1,0 +1,16 @@
+################################################################################
+#
+# README
+#
+################################################################################
+a script to build/update arm-elf toolchain in a simple way(compare to v3.2.1)
+always trying to build the last version of packages(binutils/gcc/gdb/newlib)
+
+Envirments: Ubuntu-16.04/Niaoyun VPS
+
+binutils-2.30
+gcc-7.3.0
+gdb-8.1
+newlib-3.0.0
+
+This is an initial version, and many places should be optimized.
