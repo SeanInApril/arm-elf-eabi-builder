@@ -52,7 +52,8 @@ TARGET_PREFIX := ${PREFIX}/${TARGET}
 
 #SW_DL_URL := https://mirrors.ustc.edu.cn
 SW_DL_URL  := https://mirrors.tuna.tsinghua.edu.cn
-SW_DL_URLN := ftp://sources.redhat.com/pub
+#SW_DL_URLN := ftp://sources.redhat.com/pub
+SW_DL_URLN := ftp://sourceware.org/pub
 DLFLAGS    := -c --tries=0 --timeout=10
 
 #function to check wheather file exsits in path
